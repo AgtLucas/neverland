@@ -12,6 +12,11 @@ import React, {
   View
 } from 'react-native'
 
+import Mapbox from 'react-native-mapbox-gl'
+import secrets from './secrets'
+
+var mapRef = 'mapRef'
+
 class Neverland extends Component {
   render () {
     return (
